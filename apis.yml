@@ -1,8 +1,30 @@
 aid: halo-health-symplr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/halo-health-symplr.png
 name: Halo Health (Symplr)
-description: 'Halo Health (Symplr) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Halo Health, now part of symplr and marketed as symplr Clinical Communications,
+  is a HIPAA-compliant clinical communication and collaboration platform for
+  healthcare organizations. It provides role-based secure messaging, voice
+  communication, critical alert and clinical-alarm notification, and on-call
+  schedule management so care teams can coordinate around patients. The platform
+  integrates with hospital EHR and clinical systems using healthcare
+  interoperability standards - HL7 ADT for patient admit/discharge/transfer
+  events, HL7 ORU for laboratory and radiology results, and SMTP for alerts such
+  as sepsis notifications - rather than through a documented public developer
+  REST API. symplr acquired Halo Health to extend its healthcare operations
+  software portfolio, and the product now sits alongside symplr's broader
+  workforce, compliance, and provider-data solutions.
 url: https://raw.githubusercontent.com/api-evangelist/halo-health-symplr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Clinical Communications
+- Secure Messaging
+- Care Collaboration
+- On-Call Scheduling
+- HL7
+- EHR Integration
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.symplr.com/halo
+- type: Blog
+  url: https://www.symplr.com/blog
+- type: Support
+  url: https://www.symplr.com/customer-support
+- type: Login
+  url: https://www.symplr.com/login
+- type: PrivacyPolicy
+  url: https://www.symplr.com/privacy-policy
+- type: TermsOfService
+  url: https://www.symplr.com/wp-content/uploads/2025/12/symplr-Solution-Terms-All-Nov-2025.pdf
+- type: TrustCenter
+  url: security/halo-health-symplr-trust-center.yml
+- type: Compliance
+  url: https://trust.symplr.com/
+- type: DomainSecurity
+  url: security/halo-health-symplr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
